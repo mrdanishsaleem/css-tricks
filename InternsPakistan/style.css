@@ -5,3 +5,7 @@ h1 {
 p {
   font-size: 12px;
 }
+
+img {
+  background-position: top right;
+}
