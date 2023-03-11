@@ -1,0 +1,77 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+}
+
+body {
+  background: #589ed9;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 220px;
+  margin: 75px auto;
+  text-align: center;
+  color: #fff;
+}
+
+.header .logo {
+  font-size: 50px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.loginform input {
+  width: 100%;
+  margin: 0px;
+  font-size: 13px;
+  color: #2c3e50;
+  padding: 0;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.loginformfields #email {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom: 0;
+  text-indent: 20px;
+  margin-top: 15px;
+}
+
+.loginformfields #password {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.loginform input[type="submit"] {
+  border-radius: 6px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 0;
+  background: #2186d4;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+}
+
+.footer p a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
