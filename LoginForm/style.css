@@ -26,11 +26,11 @@ body {
   margin: 0 auto;
 }
 
-.header h1 {
+/* .header h1 {
   font-size: 25px;
   padding: 0px;
   margin: 0px;
-}
+} */
 
 .loginform input {
   width: 100%;
