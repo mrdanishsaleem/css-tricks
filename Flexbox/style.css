@@ -1,0 +1,39 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 0.5em;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.columns {
+  display: flex;
+}
+
+.columns div {
+  width: 50%;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columns p {
+  flex-grow: 1;
+}
