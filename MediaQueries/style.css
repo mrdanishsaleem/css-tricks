@@ -1,0 +1,41 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  color: green;
+  font-size: 60px;
+}
+
+p {
+  color: black;
+  font-size: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    color: blue;
+    font-size: 45px;
+  }
+  p {
+    color: blueviolet;
+    font-size: 22px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    color: blue;
+    font-size: 45px;
+  }
+  p {
+    color: blueviolet;
+    font-size: 22px;
+    width: 80%;
+  }
+}
