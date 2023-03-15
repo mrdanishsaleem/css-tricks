@@ -1,0 +1,15 @@
+.col {
+  background-color: #ccc;
+  padding: 50px;
+  border: 1px red solid;
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.other-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
