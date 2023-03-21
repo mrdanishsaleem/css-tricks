@@ -1,8 +1,6 @@
-// function sayMyName() {
-//   alert("My name is Danish Saleem!");
-// }
+let firstName = "Danish";
+let lastName = "Saleem";
 
-let x = 5;
-let z = x * 2;
-
-console.log(z);
+function sayMyName() {
+  alert("My name is " + firstName + " " + lastName + "!");
+}
