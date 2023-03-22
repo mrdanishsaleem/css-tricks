@@ -1,7 +1,5 @@
+// JS: Write a JavaScript function
+
 function myFunction() {
-  alert("Hello World!");
+  alert("Hello World");
 }
-
-// Write your code here
-
-myFunction();
