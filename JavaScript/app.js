@@ -1,5 +1,4 @@
-function functionWithArgs(param1, param2) {
-  console.log(param1 + param2);
-}
-
-functionWithArgs(3, 4);
+// Write your code here
+var x = 5;
+var y = 10;
+console.log(x + y);
