@@ -1,5 +1,3 @@
-// JS: Declare variable in a single line
+// JS: Divide variables
 
-var firstName = "John",
-  lastName = "Doe",
-  age = "35";
+alert(10 / 2);
