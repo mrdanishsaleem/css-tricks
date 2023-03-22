@@ -33,3 +33,21 @@ var cars = ["Volvo", "Jeep", "Mercedes"];
 // Write your code here
 
 cars[0] = "Ford";
+
+// JS: Get length of an array
+
+var cars = ["Volvo", "Jeep", "Mercedes"];
+
+// Write your code here
+
+alert(cars.length);
+
+// JS: Loop to generate numbers
+
+var i;
+
+// For loop
+
+for (var i = 0; i < 10; i++) {
+  console.log(i);
+}
