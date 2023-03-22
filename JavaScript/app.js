@@ -1,9 +1,9 @@
-// JS: Replace and return value
+// JS: Convert to upper case
 
-var txt = "Hello User";
+var txt = "Interns Pakistan";
 
-//Write your code here
-txt = txt.replace("Hello", "Welcome");
+// Write your code here
+txt.toUpperCase(txt);
 
-//Output
+// Output
 console.log(txt);
