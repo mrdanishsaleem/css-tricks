@@ -25,3 +25,11 @@ var cars = ["Saab", "Volvo", "BMW"];
 // Write your code here
 var x;
 x = cars[1];
+
+// JS: Change value of an array item
+
+var cars = ["Volvo", "Jeep", "Mercedes"];
+
+// Write your code here
+
+cars[0] = "Ford";
