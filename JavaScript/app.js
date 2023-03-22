@@ -1,5 +1,5 @@
-// JS: Write a JavaScript function
+// JS: Write a JavaScript function that returns a string
 
 function myFunction() {
-  alert("Hello World");
+  return "Hello World";
 }
