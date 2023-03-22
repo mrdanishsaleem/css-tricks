@@ -1,6 +1,5 @@
-// JS: Assign value and alert the result
+// JS: Declare variable in a single line
 
-var x = 5;
-var y = 10;
-var z = x + y;
-alert(z);
+var firstName = "John",
+  lastName = "Doe",
+  age = "35";
