@@ -1,8 +1,7 @@
-var length = 16; // Number
+function myFunction() {
+  alert("Hello World!");
+}
 
-var lastName = "Johnson"; // String
+// Write your code here
 
-var x = {
-  firstName: "John",
-  lastName: "Doe",
-}; // Object
+myFunction();
