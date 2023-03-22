@@ -1,7 +1,8 @@
-// JS: Use length property to alert the length of the string
+// JS: Concatenate two variables
 
-var txt = "Hello World!";
+var str1 = "Hello ";
+var str2 = "World!";
 
-// Modify your code here
-x = txt.length;
-alert(x);
+// Write your code here
+
+alert(str1 + " " + str2);
