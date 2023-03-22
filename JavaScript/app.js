@@ -1,6 +1,5 @@
-let firstName = "Danish";
-let lastName = "Saleem";
-
-function sayMyName() {
-  alert("My name is " + firstName + " " + lastName + "!");
+function reusableFunction() {
+  console.log("Hi World");
 }
+
+reusableFunction();
