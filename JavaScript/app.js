@@ -1,8 +1,9 @@
-// JS: Concatenate two variables
+// JS: Replace and return value
 
-var str1 = "Hello ";
-var str2 = "World!";
+var txt = "Hello User";
 
-// Write your code here
+//Write your code here
+txt = txt.replace("Hello", "Welcome");
 
-alert(str1 + " " + str2);
+//Output
+console.log(txt);
