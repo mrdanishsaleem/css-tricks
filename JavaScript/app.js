@@ -1,5 +1,7 @@
-// JS: Write a JavaScript function that returns a string
+// JS: Use length property to alert the length of the string
 
-function myFunction() {
-  return "Hello World";
-}
+var txt = "Hello World!";
+
+// Modify your code here
+x = txt.length;
+alert(x);
