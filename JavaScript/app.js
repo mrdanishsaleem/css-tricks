@@ -1,4 +1,6 @@
-// Write your code here
+// JS: Assign value and alert the result
+
 var x = 5;
 var y = 10;
-console.log(x + y);
+var z = x + y;
+alert(z);
