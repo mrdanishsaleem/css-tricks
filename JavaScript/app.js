@@ -17,3 +17,11 @@ txt.toLowerCase(txt);
 
 // Output
 console.log(txt);
+
+// JS: Get value from an array item
+
+var cars = ["Saab", "Volvo", "BMW"];
+
+// Write your code here
+var x;
+x = cars[1];
