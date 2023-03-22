@@ -1,8 +1,8 @@
-// JS: Use assignment operator to display result
+var length = 16; // Number
 
-x = 10;
-y = 5;
+var lastName = "Johnson"; // String
 
-// Write your code below this line
-
-x *= y;
+var x = {
+  firstName: "John",
+  lastName: "Doe",
+}; // Object
