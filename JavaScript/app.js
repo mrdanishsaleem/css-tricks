@@ -2,4 +2,7 @@
 
 x = 10;
 y = 5;
-x += y;
+
+// Write your code below this line
+
+x *= y;
