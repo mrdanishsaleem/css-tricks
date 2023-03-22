@@ -1,3 +1,5 @@
-// JS: Divide variables
+// JS: Use assignment operator to display result
 
-alert(10 / 2);
+x = 10;
+y = 5;
+x += y;
