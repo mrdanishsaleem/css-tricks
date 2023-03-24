@@ -1,17 +1,9 @@
-// ES6: Declare a Read-Only Variable with the const Keyword
-
-function printManyTimes(str) {
-  //  The purpose of use strict is to indicate that the code should be executed in strict mode, With strict mode, you can not, for example, use undeclared variables.
+// ES6: Mutate an Array Declared with const
+const s = [5, 7, 2];
+function editInPlace() {
   "use strict";
-
-  // Only change code below this line
-
-  let sentence = str;
-  for (let i = 0; i < str.length; i += 2) {
-    console.log(sentence);
-  }
-
-  // Only change code above this line
+  s[0] = 2;
+  s[1] = 5;
+  s[2] = 7;
 }
-
-printManyTimes("InternsProgram");
+editInPlace();
