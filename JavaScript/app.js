@@ -1,4 +1,8 @@
-// ES6: Use the Spread Operator to Evaluate Arrays In-Place
+// ES6: Use the Spread Operator to Copy Array
 
-let arr = [10, 20, 60];
-Math.max(...arr); // No error. Accepts individual elements.
+const arr1 = ["JAN", "FEB", "MAR", "APR", "MAY"];
+let arr2;
+
+arr2 = [...arr1]; // Change this line
+
+console.log(arr2);
