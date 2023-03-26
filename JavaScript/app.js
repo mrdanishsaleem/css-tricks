@@ -1,3 +1,4 @@
-// ES6: Set Default Parameters for Your Functions
+// ES6: Use the Spread Operator to Evaluate Arrays In-Place
 
-const increment = (number, value = 1) => number + value;
+let arr = [10, 20, 60];
+Math.max(...arr); // No error. Accepts individual elements.
