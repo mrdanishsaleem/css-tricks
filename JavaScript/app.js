@@ -1,8 +1,3 @@
-// ES6: Write Arrow Functions with Parameters without the argument parentheses
+// ES6: Set Default Parameters for Your Functions
 
-const myConcat = (arr1, arr2) => {
-  "use strict";
-  return arr1.concat(arr2);
-};
-
-console.log(myConcat([1, 2], [3, 4, 5]));
+const increment = (number, value = 1) => number + value;
