@@ -1,9 +1,5 @@
-// ES6: Mutate an Array Declared with const
-const s = [5, 7, 2];
-function editInPlace() {
-  "use strict";
-  s[0] = 2;
-  s[1] = 5;
-  s[2] = 7;
-}
-editInPlace();
+// ES6: Write Arrow Functions with Parameters
+
+let subNumbers = (value1, value2) => {
+  console.log(value2 - value1);
+};
