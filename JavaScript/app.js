@@ -1,8 +1,9 @@
-// ES6: Use the Spread Operator to Copy Array
+// ES6: Use Destructuring Assignment to Extract Values from Objects
 
-const arr1 = ["JAN", "FEB", "MAR", "APR", "MAY"];
-let arr2;
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80,
+};
 
-arr2 = [...arr1]; // Change this line
-
-console.log(arr2);
+const { today, tomorrow } = HIGH_TEMPERATURES;
