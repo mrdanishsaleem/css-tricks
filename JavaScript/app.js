@@ -1,4 +1,4 @@
-// ES6: Use Destructuring Assignment to Extract Values from Objects
+// ES6: Use Destructuring Assignment to Assign Variables from Objects
 
 const HIGH_TEMPERATURES = {
   yesterday: 75,
