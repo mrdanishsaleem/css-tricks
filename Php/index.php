@@ -441,3 +441,64 @@ switch ($color) {
         echo "No Color Found";
 }
 ?>
+
+<!-- Challenge # 35 PHP: Modify switch statement -->
+
+<?php
+
+$color  = "red";
+
+// Modify the code below this line
+switch ($color) {
+    case "red":
+        break;
+    case "green":
+        break;
+    default:
+        echo "Neither";
+}
+?>
+
+<!-- Challenge # 36 PHP: Use for loop with display output -->
+
+<?php
+
+// Write your code below this line
+for ($i = 0; $i < 6; $i++) {
+    echo $i . "\n";
+}
+
+?>
+
+<!-- Challenge # 37 PHP: Use do while with display output -->
+
+<?php
+
+// Write your code below this line
+
+// Declare a variable $i and assign value 0
+$i = 0;
+
+// Using the variable $i loop through as long as $i is less than 6 using do while
+do {
+    // Within the loop output $i
+    // Use echo statement to output $i
+    echo $i . "\n";
+
+    // The increment operator should be used after the echo statement
+    $i++;
+} while ($i < 6); // Loop condition
+
+?>
+
+<!-- Challenge # 38 PHP: Use for loop to display output -->
+
+<?php
+
+// Write your code below this line
+
+for ($i = 10; $i > 1; $i--) {
+    echo $i . "\n";
+}
+
+?>
