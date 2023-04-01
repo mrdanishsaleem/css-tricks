@@ -502,3 +502,236 @@ for ($i = 10; $i > 1; $i--) {
 }
 
 ?>
+
+<!-- Challenge # 39 PHP: Use foreach to loop through an array -->
+
+<?php
+
+$colors = array("red", "green", "blue", "yellow");
+
+// Write your code below this line
+foreach ($colors as $value) {
+    echo $value;
+}
+?>
+
+<!-- Challenge # 40 PHP: Create and execute a function -->
+
+<?php
+
+// Write your code below this line
+function myFunction()
+{
+    echo "Interns Pakistan";
+}
+myFunction();
+?>
+
+<!-- Challenge # 41 PHP: Create a function that outputs and returns simultaneously -->
+
+<?php
+
+// Write your code below this line
+
+// Create a function named myFunction that has two parameters: $para1 and $para2
+function myFunction($para1, $para2)
+{
+    // Inside the function output the $para1 and then return the $para2
+    // Use echo statement for displaying the output.
+    echo $para1;
+    return $para2;
+}
+
+// Call (execute) a function using this code:
+myFunction("Hello", "World");
+
+?>
+
+<!-- Challenge # 42 PHP: Create a function that outputs no of items in an array -->
+
+<?php
+
+$colors = array("red", "green", "blue", "yellow");
+
+// Write your code below this line
+
+// Create a function named myFunction that takes parameter: $array
+function myFunction($array)
+{
+    // Output using echo statement the number of items in an array
+    echo "The number of items in the array is " . count($array) . "\n";
+}
+
+// Call (execute) a function and pass the $colors array as parameter value
+myFunction($colors);
+
+?>
+
+<!-- Challenge # 43 PHP: Create a function that output an item of an array -->
+
+<?php
+
+$colors = array("red", "green", "blue", "yellow");
+
+// Write your code below this line
+
+// Define a function named myFunction that takes one parameter: $array
+function myFunction($array)
+{
+    // Return the second item in the $array
+    return $array[1];
+}
+
+// Call the function and pass the $colors array as an argument
+echo myFunction($colors); // This should print "green"
+
+?>
+
+<!-- Challenge # 44 PHP: Create a swap function -->
+
+<?php
+
+$v1  = 3;
+$v2  = 4;
+
+// Write your code below this line
+
+// Create a function named swapFunction
+function swapFunction($val1, $val2)
+{
+    // Use $temp to hold the value of $val1
+    $temp = $val1;
+    // Swap the values of $val1 and $val2
+    $val1 = $val2;
+    $val2 = $temp;
+    // Output the $val1 and $val2 using echo statement
+    echo $val1 . "\n";
+    echo $val2 . "\n";
+}
+
+// Call the function and pass the $v1 and $v2 as parameters
+swapFunction($v1, $v2);
+
+?>
+
+<!-- Challenge # 45 PHP: Complete the code that checks odd number -->
+
+<?php
+
+$v1  = 3;
+
+function testOddNumber($value)
+{
+
+    //Get the remainder of our number divided by 2.
+    $remainder = $value % 2;
+
+    //If the remainder is not equal to 0, then it means
+    //that the number is odd.
+    if ($remainder != 0) {
+        echo $value . ' is odd!';
+    }
+}
+
+testOddNumber($v1);
+
+?>
+
+<!-- Challenge # 46 PHP: Create a function that converts string to lowercase -->
+
+<?php
+// Define a function named stringtoLowerCase that takes a parameter $string
+function stringtoLowerCase($string)
+{
+    // Convert the parameter to lower case using the strtolower function
+    $string = strtolower($string);
+    // Output the parameter after conversion using echo statement
+    echo $string;
+    // Return the parameter value
+    return $string;
+}
+
+// Define a variable $str with some value
+$str = "Hello World!";
+
+// Call the function by passing the $str in parameter
+stringtoLowerCase($str);
+?>
+
+<!-- Challenge # 47 PHP: Modify the code to output as per condition required -->
+
+<?php
+
+// Modify the code here
+for ($x = 1; $x <= 10; $x++) {
+    if ($x < 10) {
+        echo "$x-"; // add a hyphen after each number except the last one
+    } else {
+        echo "$x"; // no hyphen after the last number
+    }
+}
+
+?>
+
+<!-- Challenge # 48 PHP: Use php code within HTML elements -->
+
+Here is the code that I generated based on your instructions:
+
+<?php $var = 'PHP Tutorial'; ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title><?php echo $var; ?> | Interns Pakistan!</title>
+</head>
+
+<body>
+    <h3><?php echo $var; ?></h3>
+    <p>PHP, an acronym for Hypertext Preprocessor, is a widely-used open source general-purpose scripting language. It is a cross-platform, HTML embedded server-side scripting language and is especially suited for web development.</p>
+    <p><a href="#"><?php echo $var; ?></a></p>
+</body>
+
+</html>
+
+<!-- Challenge # 49 PHP: Create a function that loops as per parameter settings -->
+
+<?php
+
+$start_var  = 1;
+$end_val  = 10;
+
+//Write your code below this line
+
+//Create a function named myFunction that takes parameters: $start and $end
+function myFunction($start, $end)
+{
+    $i = $start;
+    while ($i < $end) {
+
+        echo "$i\n";
+
+        $i++;
+    }
+}
+
+myFunction($start_var, $end_val);
+
+?>
+
+<!-- Challenge # 50 PHP: Create a function that converts string to uppercase -->
+
+<?php
+
+$str  = "Interns Pakistan";
+
+// Write your code below this line
+
+function stringtoUpperCase($string)
+{
+    echo strtoupper($string);
+}
+
+stringtoUpperCase($str);
+
+?>
