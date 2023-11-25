@@ -1,0 +1,27 @@
+/* Basic styles to position and style the book */
+.book {
+  width: 200px;
+  height: 250px;
+  position: relative;
+}
+
+.cover {
+  width: 100px;
+  height: 200px;
+  background-color: #333;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  border-radius: 5px;
+}
+
+.pages {
+  width: 90px;
+  height: 190px;
+  background-color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
